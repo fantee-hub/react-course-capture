@@ -37,7 +37,7 @@ const About = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 5rem 10rem;
   color: white;
 `;
 const Description = styled.div`
