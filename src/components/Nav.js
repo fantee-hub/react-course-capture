@@ -34,9 +34,6 @@ const StyledNav = styled.nav`
   a {
     color: white;
     text-decoration: none;
-    li {
-      padding-left: 100rem;
-    }
   }
   ul {
     list-style: none;
@@ -48,7 +45,8 @@ const StyledNav = styled.nav`
     font-weight: lighter;
   }
   li {
-    padding-left: 100rem;
+    padding-left: 10rem;
+    position: relative;
   }
 `;
 
