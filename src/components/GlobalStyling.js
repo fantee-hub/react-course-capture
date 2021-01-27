@@ -1,4 +1,3 @@
-import React from "react";
 import { createGlobalStyle } from "styled-components";
 
 const GLobalStyling = createGlobalStyle`
@@ -7,9 +6,15 @@ const GLobalStyling = createGlobalStyle`
   padding:0;
   box-sizing: border-box;
 }
+html{
+  @media (max-width:1500px){
+    font-size:75%;
+  }
+}
 body{
   background:#1b1b1b;
   font-family: 'Inter',sans-serif;
+  overflow-x:hidden;
 }
 button{
   font-weight: bold;
@@ -20,7 +25,7 @@ button{
   background:transparent;
   color:#ffffff;
   font-family: 'Inter',sans-serif;
-  transition: all .3s ease;
+  transition: all .5s ease;
   &:hover{
     background: #23d997;
   }&:focus{
